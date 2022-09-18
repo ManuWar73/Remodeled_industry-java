@@ -9,7 +9,7 @@
 ## Modding ToDo List:
 
 - [x] Create a new Mindustry Java mod project.
-- [ ] Edit the [mod.hjson](mod.hjson) for your mod.
+- [x] Edit the [mod.hjson](mod.hjson) for your mod.
 - [ ] Create your first content, a block, an item or anything you want.
 - [ ] Put sprites and bundles into [assets](assets) directory.
 - [ ] Check the Mindustry's sources with your IDE or on its [repository](https://github.com/Anuken/Mindustry).
