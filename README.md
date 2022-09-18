@@ -1,6 +1,6 @@
 <div align = center>
 
-# Remodeled_industry-java
+# Remodeled industry (java version)
 
 ![Mod Icon](icon.png)
 
