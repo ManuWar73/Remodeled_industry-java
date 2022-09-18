@@ -44,6 +44,13 @@ import mindustry.entities.pattern.ShootAlternate;
 import mindustry.entities.pattern.ShootPattern;
 @SuppressWarnings("deprecation")
 public class remBlocks{
+    private static final class BasicBulletPuncher extends BasicBullet {
+        {
+            ammoMultiplier = 5f;
+            collidesGround = false;
+        }
+    }
+
     //turrets
     public static Block puncher, test;
 
@@ -74,10 +81,7 @@ public static void load() {
             coolant = consumeCoolant(0.1f);
 
              ammo(
-                Items.surgeAlloy, new basicBullet(50f){{
-                    ammoMultiplier = 5f;
-                    collidesGround = false;
-                }}
+                Items.surgeAlloy, new BasicBulletPuncher()
             );
   }};
   }};
