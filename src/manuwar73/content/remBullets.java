@@ -27,5 +27,6 @@ basicBullet = new BasicBullet(50f){{
             speed = 5f;
             lifetime = 40f;
             
-        }}
-    }};
+        }};
+    };
+};
