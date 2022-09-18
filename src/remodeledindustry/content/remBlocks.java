@@ -53,11 +53,10 @@ public class remBlocks{
         }
     }
 
+
+public void loadContent() {
     //turrets
-    public static Block puncher;
-
-
-public static void load() {
+    Block puncher;
   puncher = new ItemTurret("puncher"){{
  requirements(Category.turret, with(Items.lead, 80, Items.graphite, 65, Items.titanium, 50));
 
