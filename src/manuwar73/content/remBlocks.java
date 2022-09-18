@@ -40,6 +40,8 @@ import mindustry.world.blocks.storage.*;
 import mindustry.world.draw.*;
 import mindustry.world.meta.*;
 import static mindustry.type.ItemStack.*;
+import mindustry.entities.pattern.ShootAlternate;
+import mindustry.entities.pattern.ShootPattern;
 @SuppressWarnings("deprecation")
 public class remBlocks{
     //turrets
