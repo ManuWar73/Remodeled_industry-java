@@ -23,6 +23,7 @@ import remodeledindustry.content.*;
 //import remodeledindustry.world.draw.*;
 import mindustry.*;
 import mindustry.content.*;
+import mindustry.entities.Damage;
 import mindustry.entities.effect.*;
 import mindustry.entities.pattern.*;
 import mindustry.game.*;
@@ -42,8 +43,8 @@ import mindustry.world.meta.*;
 import static mindustry.type.ItemStack.*;
 import mindustry.entities.pattern.ShootAlternate;
 import mindustry.entities.pattern.ShootPattern;
-@SuppressWarnings("deprecation")
 public class remBlocks{
+
     private static final class BasicBulletPuncher extends BasicBullet {
         {
             ammoMultiplier = 5f;
@@ -52,7 +53,8 @@ public class remBlocks{
     }
 
     //turrets
-    public static Block puncher, test;
+    public static Block puncher;
+
 
 public static void load() {
   puncher = new ItemTurret("puncher"){{
@@ -78,10 +80,13 @@ public static void load() {
             health = 250;
             inaccuracy = 0f;
             rotateSpeed = 10f;
-            coolant = consumeCoolant(0.1f);
+            buildVisibility = BuildVisibility.shown;
+
 
              ammo(
-                Items.surgeAlloy, new BasicBulletPuncher()
+                Items.surgeAlloy, new BasicBulletPuncher(
+Damage = 50
+                )
             );
   }};
   }};
