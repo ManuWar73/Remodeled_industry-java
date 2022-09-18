@@ -81,7 +81,7 @@ public static void load() {
             health = 250;
             inaccuracy = 0f;
             rotateSpeed = 10f;
-            buildVisibility = BuildVisibility.shown;
+            final BuildVisibility shown;
 
 
              ammo(
