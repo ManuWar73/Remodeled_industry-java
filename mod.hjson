@@ -1,7 +1,7 @@
 displayName: "Remodeled industry java"
 name: "Remodeled-industry-java"
 author: "ManuWar73"
-main: "ManuWar73.Remodeled_industryJavaMod"
+main: "remodeledindustry.remodeledindustry"
 repo: "ManuWar73/Remodeled_industry-java"
 subtitle: "[scarlet]EXTREMELY EXPERIMENTAL[]"
 description: "Java port of remodeled industry"
