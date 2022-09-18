@@ -1,12 +1,12 @@
-displayName: "Remodeled_industry-java"
-name: "Remodeled_industry-java"
+displayName: "Remodeled industry java"
+name: "Remodeled-industry-java"
 author: "ManuWar73"
 main: "ManuWar73.Remodeled_industryJavaMod"
 repo: "ManuWar73/Remodeled_industry-java"
-subtitle: ""
-description: ""
+subtitle: "[scarlet]EXTREMELY EXPERIMENTAL[]"
+description: "Java port of remodeled industry"
 version: "1.0"
-minGameVersion: "136"
+minGameVersion: "137"
 java: true
 hidden: false
 dependencies: []
