@@ -16,6 +16,6 @@ public class BasicBullet extends BulletType{
     }
     
     public BasicBullet(float damage){
-        this(damage, damage);
+        this(float damage);
     }
 }
