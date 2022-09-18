@@ -10,7 +10,7 @@ import manuwar73.content.*;
 //import manuwar73.type.*;
 //import manuwar73.world.blocks.campaign.*;
 //import manuwar73.world.blocks.defense.*;
-import manuwar73.world.blocks.defense.turrets.*;
+//import manuwar73.world.blocks.defense.turrets.*;
 //import manuwar73.world.blocks.defense.turrets.pattern.*;
 //import manuwar73.world.blocks.distribution.*;
 //import manuwar73.world.blocks.environment.*;
