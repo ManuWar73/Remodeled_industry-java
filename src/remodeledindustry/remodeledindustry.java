@@ -6,8 +6,9 @@ import remodeledindustry.content.remBlocks;
 
 public class remodeledindustry extends Mod{
 
+
+}
 @Override
 public void loadContent() {
      Block puncher;
-}
 }
