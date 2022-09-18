@@ -10,7 +10,7 @@ import mindustry.entities.bullet.*;
 import mindustry.gen.*;
 
 public class BasicBullet extends BulletType{
-    public BasicBullet(float damage, float speed, float range, Color color){
+    public BasicBullet(float damage, Color color){
         super(speed, damage, sprite);
         hitColor = trailColor = color;
         this.speed = speed;
