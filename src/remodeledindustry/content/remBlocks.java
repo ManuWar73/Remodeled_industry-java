@@ -46,6 +46,7 @@ import mindustry.entities.pattern.ShootPattern;
 public class remBlocks{
 
     private static final class BasicBulletPuncher extends BasicBullet {
+        BasicBulletPuncher(final float Damage)
         {
             ammoMultiplier = 5f;
             collidesGround = false;
@@ -84,9 +85,7 @@ public static void load() {
 
 
              ammo(
-                Items.surgeAlloy, new BasicBulletPuncher(
-Damage = 50
-                )
+                Items.surgeAlloy, new BasicBulletPuncher(50)
             );
   }};
   }};
