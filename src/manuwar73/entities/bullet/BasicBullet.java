@@ -11,12 +11,12 @@ import mindustry.gen.*;
 
 public class BasicBullet extends BulletType{
     public BasicBullet(float damage, float speed, float range, Color color){
-        super(damage);
+        super(speed, damage, sprite);
         hitColor = trailColor = color;
         this.speed = speed;
         lifetime = range / speed;
     }
-
+    
     public BasicBullet(float damage){
         this(damage, damage, Pal.engine);
     }
